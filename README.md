@@ -46,13 +46,12 @@ python transcribe.py --model large foo.mp3 bar.wav
 </code>
 Output: for each input like meeting.mp3, you’ll get meeting.txt in the same directory containing the transcript.
 
-#In short... How to:
+# In short... How to:
 - Create a folder and place the audio file inside it.
 - Open CMD (Command Prompt) and locate the folder you created earlier.
 - Type “pybatch_transcribe.py” and press Enter.
 At the end of the process (you can check in the task manager to see if it is working based on CPU usage), a .txt file of the audio will be created.
 <img width="612" height="292" alt="Screenshot 2025-08-27 212235" src="https://github.com/user-attachments/assets/8defd3ec-4794-4271-b992-76ff661d5393" />
-
 
 # Notes
 Larger models (large) are more accurate but need more RAM/VRAM and time.
